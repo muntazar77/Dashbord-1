@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+.main {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  direction: rtl;
+}
+.menu {
+  width: 20%;
+  background-color: #121227;
+  z-index: 4;
+}
+
+#logo {
+  padding: 30px;
+  color: white;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+.menu a {
+  font-size: 18px;
+  color: #fff;
+  padding: 20px;
+  display: list-item;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+.menu a:hover {
+  background-color: red;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.body {
+  width: 100%;
+  background-color: #f7e8e8;
+}
+
+/* Title Page  */
+.body .title-page {
+  margin: 70px;
+  text-align: right;
+  color: rgba(8, 14, 19, 0.664);
+  padding-bottom: 20px;
+  border-bottom: 6px solid rgba(158, 154, 149, 0.774);
+  width: 40%;
+}
+
+/* cards */
+.body .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cards div {
+  width: 20%;
+  height: 120px;
+  border-radius: 15px;
+  padding: 30px;
+  margin-left: 20px;
+  color: #1314139c;
+  font-size: 14px;
+  background: #f7e8e8;
+  box-shadow: 20px 20px 60px #d2c5c5, -20px -20px 60px #ffffff;
+}
+.d1 {
+  background-color: #a63030;
+}
+.d2 {
+  background-color: blue;
+}
+.d3 {
+  background-color: blue;
+}
+.d4 {
+  background-color: blue;
+}
+
+.taebl {
+  /* background-color: #fff; */
+  padding: 30px;
+  margin: 40px;
+  border-radius: 15px;
+  background: #f7e8e8;
+  box-shadow: 20px 20px 60px #d2c5c5, -20px -20px 60px #ffffff;
+}
+.taebl .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+footer {
+  background-color: #121227;
+  padding: 15px;
+  height: 6vh;
+  text-align: center;
+  color: #fff;
+}
